@@ -1,0 +1,23 @@
+Files:
+myserver.c  //the c file with the code for the server
+myclient.c  //the c file with the code for the client 
+mytest      //the test for the server 
+
+As of currently what does not work in my program is: 
+	
+UNIX commands:
+•	Last 
+•	Ps aux 
+•	Set
+
+these three commands cause segmentation faults within the code. dont know why it does that.
+to fix this problem exit out of both client and server and restart both to resume operation
+
+One of the problems experienced is that after i run a bad command. something that the unix cant
+process. it will return with a new client line but another bad command  will break the client side
+system. The way to fix it is to kill the server and then kill the client. and restart accordingly.
+
+-caveat with the command line: if you keep entering good commands into "client $" most will return
+
+everything should be tested except those UNIX commands that i have tried on my own. 
+			
